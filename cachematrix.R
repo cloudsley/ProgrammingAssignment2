@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
                      get_inv_matrix = get_inv_matrix)
         }
 
-## Checks if the inverse matric is already cached 
+## Checks if the inverse matrix is already cached 
 ## else calculates and returns inverse matrix
 
 cacheSolve <- function(x, ...) {
@@ -33,7 +33,7 @@ cacheSolve <- function(x, ...) {
         m
 }
 
-inv_myMatrix<-makeCacheMatrix(myMatrix)
-cacheSolve(inv_myMatrix)
+# inv_myMatrix<-makeCacheMatrix(myMatrix)
+# cacheSolve(inv_myMatrix)
 
 
